@@ -1,0 +1,14 @@
+! Unmap capslock
+clear Lock
+!keycode 66 = Hyper_L
+
+! Leave mod4 as windows key _only_
+!remove mod4 = Hyper_L
+
+! Set mod3 to capslock
+!add mod3 = Hyper_L
+keycode 66 = Mode_switch
+keycode 31 = i I Up
+keycode 44 = j J Left
+keycode 45 = k K Down
+keycode 46 = l L Right
