@@ -25,3 +25,9 @@
 # Decrease screen brightness
 "light -U 10"
     XF86MonBrightnessDown
+
+# Switch between ABNT2 Portuguese and US keyboards
+"./.switchlanguage.sh"
+    Shift + Shift + Shift_L + Shift_R
+
+
