@@ -13,5 +13,9 @@ sudo systemctl enable --now bluetooth
 # [bluetooth] connect [DEVICE]
 # [bluetooth] trust [Device]
 # Uncomment "#AutoEnable=false" in /etc/bluetooth/main.conf
-# Uncomment/Add "AutoConnect=true" in /etc/bluetooth/main.conf
-# TODO Add bluetooth-autoconnect
+
+# Auto-connect
+# Install bluetooth-autoconnect [https://github.com/jrouleau/bluetooth-autoconnect]
+yay -S bluetooth-autoconnect
+bluetooth-auconnect 
+
